@@ -88,18 +88,12 @@ Akses portfolio di `http://localhost:8000` ✅
 
 ---
 
-## 📸 Cuplikan Layar
-
-> Tambahkan screenshot tampilan desktop & mobile, serta animasi (bila perlu).
-
----
-
 ## 📢 Hubungi Saya
 
 Ingin berkolaborasi atau menyampaikan ide menarik?
 
--   📧 Email: **[yourname@email.com](mailto:yourname@email.com)**
--   💼 LinkedIn: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)
+-   📧 Email: **[nodevaaa@email.com](mailto:nodevaaa@email.com)**
+-   💼 LinkedIn: [linkedin.com/in/novawiguna](https://linkedin.com/in/novawiguna)
 -   💻 GitHub: [github.com/NovaaaLv](https://github.com/NovaaaLv)
 
 ---
