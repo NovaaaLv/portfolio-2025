@@ -1,66 +1,110 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# ⚡ Ade Nova Wiguna - Frontend Developer Portfolio
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Selamat datang di repository **personal portfolio** saya!
+Website ini dibangun menggunakan **Laravel + Inertia.js**, **React.js**, dan **Tailwind CSS**, serta dihiasi animasi interaktif dari **Framer Motion**. Di sini saya menampilkan proyek-proyek terbaik saya, keahlian frontend, dan semangat saya dalam menciptakan UI yang intuitif dan modern.
 
-## About Laravel
+## 👨‍💻 Tentang Saya
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Saya **Ade Nova Wiguna**, seorang Frontend Developer yang fokus pada pembangunan antarmuka pengguna yang responsif, estetik, dan ramah pengguna.
+Saya mengutamakan performa, aksesibilitas, dan interaktivitas dalam setiap proyek yang saya buat.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+> "Good design is invisible — great code makes it feel alive."
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## ✨ Fitur Utama
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+-   🧽 Dibangun dengan **Laravel + Inertia.js**
+-   ⚛️ Antarmuka interaktif dengan **React.js**
+-   💨 Styling cepat & efisien menggunakan **Tailwind CSS**
+-   🎞️ Animasi mulus dengan **Framer Motion**
+-   🌓 Dukungan Light & Dark Mode
+-   📱 Mobile-first & 100% responsif
+-   🌐 Siap SEO (meta tags, struktur HTML bersih)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🛠️ Teknologi yang Digunakan
 
-## Laravel Sponsors
+| Teknologi         | Fungsi                             |
+| ----------------- | ---------------------------------- |
+| **Laravel**       | Backend & routing API              |
+| **Inertia.js**    | Jembatan antara Laravel & React    |
+| **React.js**      | Library antarmuka interaktif       |
+| **Tailwind CSS**  | Styling responsif & efisien        |
+| **Framer Motion** | Animasi transisi & interaksi halus |
+| **Vite**          | Build tool cepat untuk React       |
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 📁 Struktur Proyek
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+```
+.
+├── resources/
+│   └── js/
+│       ├── Pages/           # Halaman React via Inertia
+│       ├── Components/      # Komponen UI reusable
+│       └── App.jsx          # Root React
+├── routes/web.php           # Routing Laravel
+├── app/Http/Controllers/    # Controller backend
+├── public/                  # Aset publik
+└── tailwind.config.js       # Konfigurasi Tailwind
+```
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🚀 Menjalankan Secara Lokal
 
-## Code of Conduct
+```bash
+# Clone repositori
+git clone https://github.com/username/portfolio.git
+cd portfolio
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+# Install dependencies PHP
+composer install
 
-## Security Vulnerabilities
+# Install dependencies JavaScript
+npm install
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# Setup environment
+cp .env.example .env
+php artisan key:generate
 
-## License
+# Jalankan Laravel
+php artisan serve
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Jalankan Vite dev server
+npm run dev
+```
+
+Akses portfolio di `http://localhost:8000` ✅
+
+---
+
+## 🌍 Live Demo
+
+👉 [Lihat Portfolio Saya di Sini](https://yourportfolio.com)
+
+---
+
+## 📸 Cuplikan Layar
+
+> Tambahkan screenshot tampilan desktop & mobile, serta animasi (bila perlu).
+
+---
+
+## 📢 Hubungi Saya
+
+Ingin berkolaborasi atau menyampaikan ide menarik?
+
+-   📧 Email: **[yourname@email.com](mailto:yourname@email.com)**
+-   💼 LinkedIn: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)
+-   💻 GitHub: [github.com/NovaaaLv](https://github.com/NovaaaLv)
+
+---
+
+## ⭐ Apresiasi
+
+Jika Anda menyukai proyek ini, silakan beri ⭐ di repository ini!
+Itu sangat membantu dan memberi semangat ✨
