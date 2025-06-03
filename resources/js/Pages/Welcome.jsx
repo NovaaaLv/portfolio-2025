@@ -9,11 +9,15 @@ export default function Welcome() {
         <GuestLayout>
             <WelcomeLayout>
                 <Head title="Frontend Dev" />
-                <WelcomeSection className="bg-[#292929]">
+                <WelcomeSection className="bg-[#292929]" id="hero">
                     <Hero />
                 </WelcomeSection>
-                <WelcomeSection className="bg-[#101010]">AWUUU</WelcomeSection>
-                <WelcomeSection className="bg-yellow-200">AWUUU</WelcomeSection>
+                <WelcomeSection className="bg-[#101010]" id="section-2">
+                    AWUUU
+                </WelcomeSection>
+                <WelcomeSection className="bg-yellow-200" id="section-3">
+                    AWUUU
+                </WelcomeSection>
             </WelcomeLayout>
         </GuestLayout>
     );

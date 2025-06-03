@@ -18,7 +18,7 @@ export default function Navbar() {
 
     return (
         <div className="flex items-center justify-end w-full">
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-16">
                 {navlinks.map((item, index) => (
                     <Link
                         key={index}
