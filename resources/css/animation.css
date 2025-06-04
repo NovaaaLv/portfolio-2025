@@ -1,0 +1,13 @@
+@keyframes flash {
+    0%,
+    100% {
+        color: white;
+    }
+    50% {
+        color: #059669; /* emerald-600 */
+    }
+}
+
+.animate-flash {
+    animation: flash 5s infinite ease-in-out;
+}

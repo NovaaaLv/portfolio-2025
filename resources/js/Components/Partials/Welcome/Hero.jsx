@@ -61,7 +61,7 @@ export default function Hero() {
                 <div className=""></div>
             </div>
 
-            <div className="flex justify-between w-full">
+            <div className="z-40 flex justify-between w-full">
                 <div className="flex items-center gap-5 text-white">
                     {datas.map((data, index) => {
                         const isLast = index === datas.length - 1;
