@@ -1,5 +1,5 @@
-import Section2Heading from "@/Components/Partials/Welcome/Section2/Heading";
-import Section2SubHeading from "@/Components/Partials/Welcome/Section2/SubHeading";
+import Section2Heading from "@/Components/Partials/Welcome/MyWorld/Heading";
+import Section2SubHeading from "@/Components/Partials/Welcome/MyWorld/SubHeading";
 import {
     HiOutlineLightBulb,
     HiOutlineHeart,
@@ -7,9 +7,11 @@ import {
     HiLightBulb,
     HiHeart,
     HiBriefcase,
+    HiOutlineUserGroup,
+    HiUserGroup,
 } from "react-icons/hi2";
 
-export default function Section2() {
+export default function MyWorld() {
     const datas = [
         {
             title: "Creativity",
@@ -34,15 +36,15 @@ export default function Section2() {
                 "Fully committed to delivering quality results with passion and persistence.",
         },
         {
-            title: "Hard Work",
+            title: "Collaboration",
             iconOutline: (
-                <HiOutlineBriefcase className="text-3xl text-emerald-500 group-hover:hidden" />
+                <HiOutlineUserGroup className="text-3xl text-emerald-500 group-hover:hidden" />
             ),
             iconFilled: (
-                <HiBriefcase className="hidden text-3xl text-emerald-500 group-hover:block" />
+                <HiUserGroup className="hidden text-3xl text-emerald-500 group-hover:block" />
             ),
             description:
-                "Consistently putting in the effort needed to achieve goals efficiently.",
+                "Working closely with others to achieve shared goals through effective teamwork.",
         },
     ];
 

@@ -22,7 +22,7 @@ export default function Hero() {
     ];
 
     return (
-        <div className="w-full h-full">
+        <div className="relative z-30 w-full h-full ">
             <Navbar />
             <div className="flex items-center justify-between w-full h-[85%] text-white">
                 <div className="text-center md:text-left md:mt-0">
